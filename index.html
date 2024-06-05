@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valhalla Glamping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+</head>
+<body>
+    <header>
+        <h1>Valhalla Glamping</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Bienvenidos a Valhalla Glamping</h2>
+        <p>Disfruta de una experiencia única en la naturaleza</p>
+    </section>
+
+    <section class="reservation-form">
+        <h2>Reserva tu estancia</h2>
+        <form id="reservationForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Fecha de llegada:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
