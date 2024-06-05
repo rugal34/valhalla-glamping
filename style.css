@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -43,4 +43,64 @@ header {
     color: white;
     border: none;
     cursor: pointer;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Color de texto base */
+}
+
+header {
+    background-color: #8B4513; /* Marrón oscuro para el encabezado */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.hero {
+    text-align: center;
+    margin: 2rem 0;
+    background: linear-gradient(to bottom, #FFD700, #FFA500); /* Gradiente amarillo a naranja */
+    padding: 2rem;
+    color: white; /* Color de texto blanco para contrastar */
+}
+
+.reservation-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Bordes redondeados para suavizar */
+}
+
+.reservation-form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    color: #333; /* Color de texto base */
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #8B4513; /* Borde marrón oscuro */
+    border-radius: 4px;
+}
+
+.reservation-form button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #8B4513; /* Botón marrón oscuro */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.reservation-form button:hover {
+    background-color: #A0522D; /* Color marrón más claro al pasar el cursor */
 }
